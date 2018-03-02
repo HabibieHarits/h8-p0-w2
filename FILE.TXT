@@ -8,12 +8,12 @@ END
 ---------------------------------------------------------------
 
 Input tahun;
-IF tahun tidak habis dibagi 4 !=0
- Do "bukan tahun kabisat"
+IF tahun habis dibagi 4=0
+ Do "tahun kabisat"
 Else if ((tahun %100 ==0) and (tahun400%!=0)
  Do " Tahun Kabisat"
 Else
- Do"Tahun Kabisat!"
+ Do"bukan Tahun Kabisat!"
 END IF
 Display "tahun"
 
