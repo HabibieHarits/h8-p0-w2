@@ -1,0 +1,49 @@
+STORE "£F" with any value
+STORE "m" with any value
+STORE "a" with any value
+CALCULATE "m*a"
+SET "£F" value with calculate result
+DISPLAY "£F"
+END
+---------------------------------------------------------------
+
+STORE "tahun" with 0
+STORE "kabisat" with 4
+
+IF "tahun" dibagi "kabisat"
+ DO "tahun kabisat"
+ ELSE IF "tahun" dibagi "kabisat"
+ DO "tahun non kabisat"
+End if
+
+Display "tahun"
+
+
+----------------------------------------------------------------
+
+STORE "LAUNDRY" with 0
+
+WHILE "STOP" <= 20
+  ADD "LAUNDRY" by 1
+
+DISPLAY "STOP"
+END
+----------------------------------------------------------------
+
+store KUKU PANJANG to 0
+
+store KUKU PENDEK to 0
+
+store SISWA = 1
+
+while SISWA <= to 40
+
+store CEK KUKU SISWA
+if SISWA 
+
+	add KUKU PANJANG to one
+	display HUKUM
+else
+
+	display MEMUJI
+	END WHILE
