@@ -3,40 +3,28 @@ var bulan = '12';
 var tahun = '1996';
 
 switch (bulan) {
-  case '1':
-    console.log(tanggal + 'Januari' + tahun);
+  case '1':(tanggal + 'Januari' + tahun);
     break;
-  case '2':
-    console.log(tanggal + 'Febuari' + tahun);
+  case '2':(tanggal + 'Febuari' + tahun);
     break;
-  case '3':
-    console.log(tanggal + 'Maret' + tahun);
+  case '3':(tanggal + 'Maret' + tahun);
     break;
-  case '4':
-    console.log(tanggal + 'April' + tahun);
+  case '4':(tanggal + 'April' + tahun);
     break;
-  case '5':
-    console.log(tanggal + 'Mei' + tahun);
+  case '5':(tanggal + 'Mei' + tahun);
     break;
-  case '6':
-    console.log(tanggal + 'Juni' + tahun);
+  case '6':(tanggal + 'Juni' + tahun);
     break;
-  case '7':
-    console.log(tanggal + 'Juli' + tahun);
+  case '7':(tanggal + 'Juli' + tahun);
     break;
-  case '8':
-    console.log(tanggal + 'Agustus' + tahun);
+  case '8':(tanggal + 'Agustus' + tahun);
     break;
-  case '9':
-    console.log(tanggal + 'September' + tahun);
+  case '9':(tanggal + 'September' + tahun);
     break;
-  case '10':
-    console.log(tanggal + 'Oktober' + tahun);
+  case '10':(tanggal + 'Oktober' + tahun);
     break;
-  case '11':
-    console.log(tanggal + 'November' + tahun);
+  case '11':(tanggal + 'November' + tahun);
     break;
-  case '12':
-    console.log(tanggal + 'Desember' + tahun);
+  case '12':(tanggal + 'Desember' + tahun);
     break;
 }
