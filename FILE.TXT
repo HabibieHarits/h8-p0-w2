@@ -1,49 +1,39 @@
-STORE "£F" with any value
+STORE "Â£F" with any value
 STORE "m" with any value
 STORE "a" with any value
 CALCULATE "m*a"
-SET "£F" value with calculate result
-DISPLAY "£F"
+SET "Â£F" value with calculate result
+DISPLAY "Â£F"
 END
 ---------------------------------------------------------------
 
-STORE "tahun" with 0
-STORE "kabisat" with 4
-
-IF "tahun" dibagi "kabisat"
- DO "tahun kabisat"
- ELSE IF "tahun" dibagi "kabisat"
- DO "tahun non kabisat"
-End if
-
+Input tahun;
+IF tahun tidak habis dibagi 4 !=0
+ Do "bukan tahun kabisat"
+Else if ((tahun %100 ==0) and (tahun400%!=0)
+ Do " Tahun Kabisat"
+Else
+ Do"Tahun Kabisat!"
+END IF
 Display "tahun"
 
 
 ----------------------------------------------------------------
 
 STORE "LAUNDRY" with 0
+WHILE "LAUNDRY" <= 20
+  
+  ADD "Menghitung jumlah baju" + a increment by 1
 
-WHILE "STOP" <= 20
-  ADD "LAUNDRY" by 1
-
-DISPLAY "STOP"
+DISPLAY "jumlah baju"
 END
 ----------------------------------------------------------------
 
-store KUKU PANJANG to 0
-
-store KUKU PENDEK to 0
-
-store SISWA = 1
-
-while SISWA <= to 40
-
-store CEK KUKU SISWA
-if SISWA 
-
-	add KUKU PANJANG to one
-	display HUKUM
+store A with 1
+while A<=40
+If siswa kuku panjang
+     Do"kena hukum"
 else
-
-	display MEMUJI
-	END WHILE
+     Do"dapat pujian"
+End IF
+increment by 1
